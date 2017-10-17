@@ -1,0 +1,9 @@
+---
+dependencies:
+  - geerlingguy.java
+galaxy_info:
+  author: Giridhar
+  description: Elasticsearch 5 for Redhat
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.8
+  galaxy_tags: [elasticsearch,rhel,elasticsearch-5]
