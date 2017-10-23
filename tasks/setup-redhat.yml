@@ -14,4 +14,4 @@
   yum: name=* state=latest
 
 - name: Install Elasticsearch.
-  yum: pkg=elasticsearch state=installed
+  yum: pkg=elasticsearch state=latest
