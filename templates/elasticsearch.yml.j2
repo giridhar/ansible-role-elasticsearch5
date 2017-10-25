@@ -1,9 +1,8 @@
-# {{ ansible_managed }}
-#
-# Set the bind address to a specific IP (IPv4 or IPv6):
-#
-network.host: {{ elasticsearch_network_host }}
-#
-# Set a custom port for HTTP:
-#
-http.port: {{ elasticsearch_http_port }}
+cluster.name: {{ es_cluster_name }}
+node.name: {{ es_node_name }}
+node.master: true
+node.data: true
+transport.host: {{ es_transport_host }}
+transport.tcp.port: {{ es_transport_port}}
+http.port: {{ es_http_port }}
+network.host: {{ es_network_host }}
